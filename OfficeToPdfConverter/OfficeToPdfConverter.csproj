@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Office.Interop.Excel">
+        <HintPath>lib\Microsoft.Office.Interop.Excel.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Office.Interop.PowerPoint">
+        <HintPath>lib\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Office.Interop.Word">
+        <HintPath>lib\Microsoft.Office.Interop.Word.dll</HintPath>
+      </Reference>
+      <Reference Include="office">
+        <HintPath>lib\Office.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
